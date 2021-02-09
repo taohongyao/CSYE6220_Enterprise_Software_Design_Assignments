@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    
+    <servlet>
+        <servlet-name>getheader</servlet-name>
+        <servlet-class>com.csye6220.assignment01.GetHeaderServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>getheader</servlet-name>
+        <url-pattern>/part2.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getForm</servlet-name>
+        <servlet-class>com.csye6220.assignment01.GetFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getForm</servlet-name>
+        <url-pattern>/part3.do</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>displayAllGetX</servlet-name>
+        <servlet-class>com.csye6220.assignment01.DisplayServletInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>displayAllGetX</servlet-name>
+        <url-pattern>/part5.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>displayRequestInfo</servlet-name>
+        <servlet-class>com.csye6220.assignment01.DisplayRequestInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>displayRequestInfo</servlet-name>
+        <url-pattern>/part6.do</url-pattern>
+    </servlet-mapping>
+</web-app>
