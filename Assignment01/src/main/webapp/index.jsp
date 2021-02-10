@@ -12,7 +12,7 @@
 </br>
 <p><a href="part3/myform.jsp">part3 Servlet</a></p>
 </br>
-<p><a href="part4/tuition_waiver.jsp">part3 Servlet</a></p>
+<p><a href="part4/tuition_waiver.jsp">part4 Servlet</a></p>
 </br>
 <p><a href="part5.do">part5 Servlet</a></p>
 </br>

@@ -22,6 +22,15 @@
         <servlet-name>getForm</servlet-name>
         <url-pattern>/part3.do</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getTuitionWaiverForm</servlet-name>
+        <servlet-class>com.csye6220.assignment01.GetTuitionWaiwerFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getTuitionWaiverForm</servlet-name>
+        <url-pattern>/part4.do</url-pattern>
+    </servlet-mapping>
     
     <servlet>
         <servlet-name>displayAllGetX</servlet-name>
@@ -40,4 +49,6 @@
         <servlet-name>displayRequestInfo</servlet-name>
         <url-pattern>/part6.do</url-pattern>
     </servlet-mapping>
+
+
 </web-app>
