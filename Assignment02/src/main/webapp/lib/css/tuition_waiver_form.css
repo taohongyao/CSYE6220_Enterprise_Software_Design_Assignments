@@ -1,0 +1,105 @@
+body {font-font: Arial, Helvetica, sans-erif;}
+*{box-sizing:border-box;}
+.title{
+    margin-left: 20%;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 10px;
+    resize: vertical;
+}
+
+input[type=checkbox]{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+input[type=submit] {
+    background-color: #4285F4;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.center{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.container1{
+    column-count: 1;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+.container{
+    column-count: 1;
+    /*display: flex;*/
+
+}
+.left{
+    width: 50%;
+    float: left;
+}
+.right{
+    width: 50%;
+    float: right;
+}
+
+.left3{
+    width: 33%;
+    float: left;
+}
+.right3{
+    width: 33%;
+    float: right;
+}
+.middle3{
+    width: 33%;
+    float: left;
+}
+
+.text_lable{
+    width: 100%;
+}
+
+.box_lable{
+    display: contents;
+}
+
+
+
+
+
+label{
+    width: 300px;
+    display: block;
+}
+
+.courses_container{
+    margin-top: 5px;
+    column-count: 1;
+}
+
+.courses_container label input{
+width: auto;
+}
+
+.courses_container div{
+    column-count: 1;
+    float: left;
+    width: 16.6%;
+}
