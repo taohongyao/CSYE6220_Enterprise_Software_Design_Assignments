@@ -11,6 +11,7 @@
     <title>Title</title>
 </head>
 <body>
+<a href="<%=request.getContextPath()%>">Home</a>
 <h1>How many books do you want to add?</h1>
 <form action="books.do" method="post">
     <input type="number" name="book_count">

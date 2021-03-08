@@ -14,6 +14,16 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>csvServlet</servlet-name>
+        <servlet-class>com.csye6220.Assignment03.controller.CSVController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>csvServlet</servlet-name>
+        <url-pattern>/csv/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>bookServlet</servlet-name>
         <servlet-class>com.csye6220.Assignment03.controller.BookController</servlet-class>
     </servlet>
@@ -22,6 +32,16 @@
         <servlet-name>bookServlet</servlet-name>
         <url-pattern>/books/</url-pattern>
         <url-pattern>/books/books.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>storeController</servlet-name>
+        <servlet-class>com.csye6220.Assignment03.controller.StoreController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>storeController</servlet-name>
+        <url-pattern>/store/</url-pattern>
     </servlet-mapping>
 
 </web-app>

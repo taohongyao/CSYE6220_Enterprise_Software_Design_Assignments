@@ -8,12 +8,13 @@
 </head>
 
 <body>
+
 <H1>
     Assignment3
 </H1>
-<p><a href="movie/">Movie Manage</a></p><br/>
-<p><a href="books/">Books Manage</a></p><br/>
-<p><a href="part5.xml">Part6 XML JSP</a></p><br/>
-<p><a href="part6/myform.jsp">Part7 JSP</a></p><br/>
+<p><a href="movie/">Part4. Movie Manage</a></p><br/>
+<p><a href="books/">Part5. Books Manage</a></p><br/>
+<p><a href="store/">Part6. Store Shopping Cart</a></p><br/>
+<p><a href="csv/">Part7. CSV Reader</a></p><br/>
 </body>
 </html>

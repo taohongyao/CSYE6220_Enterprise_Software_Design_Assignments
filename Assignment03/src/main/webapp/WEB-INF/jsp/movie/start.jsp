@@ -13,7 +13,9 @@
 
 </head>
 <body>
+<a href="<%=request.getContextPath()%>">Home</a>
 <h1>Welcome to our Movie Store</h1>
+
 <form action="movie.do" method="post">
     <select name="page">
         <option value="create">Add New Movie to Database</option>

@@ -1,0 +1,15 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Example TLD</short-name>
+
+    <tag>
+        <name>csv</name>
+        <tag-class>com.csye6220.Assignment03.tags.ReadCSV</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>fileName</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
