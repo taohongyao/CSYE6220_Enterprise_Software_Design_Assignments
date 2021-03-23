@@ -26,6 +26,21 @@ hs_err_pid*
 *.iml
 .idea
 
+# Terraform Files #
+*/*/variables.tf
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+
 # Package Files #
 *.jar
 *.war

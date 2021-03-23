@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet-mapping>
+        <servlet-name>springPart3</servlet-name>
+        <url-pattern>/movie/*</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>springPart3</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/WEB-INF/part3-spring-movie.xml</param-value>
+        </init-param>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>springPart4</servlet-name>
+        <url-pattern>/books/*</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>springPart4</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/WEB-INF/part4-spring-books.xml</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>springAnnotationPart5and6</servlet-name>
+        <url-pattern>/part5/*</url-pattern>
+        <url-pattern>/part6/*</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>springAnnotationPart5and6</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/WEB-INF/part5N6-spring-annotation.xml</param-value>
+        </init-param>
+    </servlet>
+
+</web-app>
